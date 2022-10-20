@@ -1,4 +1,7 @@
-class Product {
-    constructor(private id: string, private name: string, private stock: number, private price: number) {
-    }
+import UpdateProduct from "./update_product";
+
+class Product extends UpdateProduct{
+
 }
+
+export default Product;
