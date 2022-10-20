@@ -1,3 +1,5 @@
+
+
 <template>
   <v-app>
     <v-main>
@@ -9,3 +11,10 @@
 <script lang="ts">
 
 </script>
+
+<style lang="scss">
+:root{
+  --manchesterBlue: #3f51b5;
+}
+
+</style>
