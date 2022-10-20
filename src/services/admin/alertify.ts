@@ -1,4 +1,4 @@
-const message = (message: string, options: Partial<AlertifyOptions>) => {
+const message = (message: string, options: Partial<AlertifyOptions> = new AlertifyOptions()) => {
     window.alertify.set("notifier", "delay", options.delay);
     window.alertify.set("notifier", "position", options.position);
     const msj = window.alertify[options.messageType!](message);
