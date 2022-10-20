@@ -2,6 +2,7 @@
   <div class="spin-container">
     <div class="spin"></div>
   </div>
+
 </template>
 
 <style lang="scss" scoped>
