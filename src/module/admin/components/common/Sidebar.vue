@@ -25,23 +25,23 @@
 import { ref } from '@vue/reactivity'
 
 const categories = ref<{name: string, link: string}[]>([ {
-          name: 'Dashboard',
+          name: 'Gösterge Paneli',
           link: 'dashboard',
         },
         {
-          name: 'Customers',
+          name: 'Müşteriler',
           link: 'customers'
         },
         {
-          name: 'Products',
+          name: 'Ürünler',
           link: 'productsAdmin'
         },
         {
-          name: 'Orders',
+          name: 'Siparişler',
           link: 'orders'
         },
         {
-          name: 'Go to the site',
+          name: 'Siteye Dön',
           link: 'home'
         }
         ]);
